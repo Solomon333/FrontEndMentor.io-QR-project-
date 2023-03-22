@@ -1,17 +1,31 @@
 body {
   background-color: #d6e2f0;
   font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;  
 }
 img {
   width: 300px;
   border-radius: 8px;
 }
+
 h1 {
  font-size: 20px;
-  margin: 10px auto;
+  margin: 2rem 0;
+  text-align: center;
 }
+
+p {
+  font-size: 15px;
+  margin: 1rem 0 3rem 0;
+  text-align: center;
+}
+
 .attribution {
-  padding-top: 100px;
+  position: fixed;
+  bottom: 0;
   font-size: 11px;
   text-align: center;
 }
@@ -20,17 +34,9 @@ h1 {
 }
 .content {
   background: #fff;
-  width: 300px;
-  height: 470px;
-  padding: 16px;
   border-radius: 18px;
-  margin: 0 auto 0 auto;
-  margin: 200px auto;
-  text-align: center;
+  padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-p {
-  font-size: 15px;
-  width: 250px;
-  margin: auto;
+  max-width: 300px;
+
 }
