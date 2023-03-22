@@ -6,8 +6,8 @@ img {
   width: 300px;
   border-radius: 8px;
 }
-h3 {
-  width: 180px;
+h1 {
+ font-size: 20px;
   margin: 10px auto;
 }
 .attribution {
@@ -18,7 +18,7 @@ h3 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-.card {
+.content {
   background: #fff;
   width: 300px;
   height: 470px;
